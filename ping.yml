@@ -3,3 +3,7 @@
   gather_facts: false
   tasks:
     - ping:
+    - name: simple debug
+      debug:
+        msg: "Hello Wells"
+        
